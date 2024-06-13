@@ -23,3 +23,13 @@ $('.multiple-items').slick({
     slidesToShow: 3,
     slidesToScroll: 3
   });
+
+  AOS.init();  
+
+  $('select').niceSelect();
+
+  MicroModal.init(
+    {
+      disableScroll: true
+    }
+  );
